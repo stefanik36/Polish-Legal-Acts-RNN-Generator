@@ -36,8 +36,7 @@ public class DataFactory {
     }
 
     private File getFile() throws IOException {
-        String current = null;
-        current = new File(".").getCanonicalPath();
+        String current = new File(".").getCanonicalPath();
         String polishLegalActsFilePathAbsolute = current + "/" + POLISH_LEGAL_ACTS_FILE_PATH_RELATIVE;
         File file = new File(polishLegalActsFilePathAbsolute);
         if (file.exists()) {
