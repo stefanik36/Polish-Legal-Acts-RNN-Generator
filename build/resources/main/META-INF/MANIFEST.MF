@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: com.stefanik36.ci.polish_legal_acts_rnn_generator.Main
+Main-Class: com2.stefanik36.ci.polish_legal_acts_rnn_generator.Main
+
